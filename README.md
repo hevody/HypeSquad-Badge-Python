@@ -23,6 +23,10 @@ python -m pip install -r requirements.txt
 python hypesquad_in_profile.py
 ```
 
+<img width="600" height="auto" alt="Image" src="https://github.com/user-attachments/assets/6cf0e17e-a755-46fd-a015-ec3e4589e17a" />
+<br><br>
+<img width="600" height="auto" alt="Image" src="https://github.com/user-attachments/assets/581573dd-1ad8-4059-94d8-aeb4cf2f68ff" />
+
 # 💡 How to get the Discord Token? 
 1. Head over to **https://discord.com/app**
    Log In if prompted 
@@ -33,11 +37,11 @@ python hypesquad_in_profile.py
    <br>
    If you cannot see it click on **`>>>`** That will show you the **`Application`**
 
-<img width="383" height="178" alt="Image" src="https://github.com/user-attachments/assets/83b4bf78-9b71-4393-b793-69d0d7c30b53" />
+   <img width="424" height="auto" alt="Image" src="https://github.com/user-attachments/assets/83b4bf78-9b71-4393-b793-69d0d7c30b53" />
 
 4. Click **`Local storage`** > **`https://discord.com`** > **`Filter`**
 
-<img width="424" height="288" alt="Image" src="https://github.com/user-attachments/assets/1c47bfb7-6117-4744-abe0-4ace727e1136" />
+   <img width="424" height="288" alt="Image" src="https://github.com/user-attachments/assets/1c47bfb7-6117-4744-abe0-4ace727e1136" />
 
 6. Type in **`token`**
    <br>
