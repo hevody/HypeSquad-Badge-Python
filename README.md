@@ -58,7 +58,7 @@ python hypesquad_in_profile.py
 
 # Disclaimer ⛔
 
-The program of this GitHub repository named, `HypeSquad-Badge-Python` is not affiliated with Discord. 
+The program of this GitHub repository named, `HypeSquad-Badge-Python` is not affiliated with Discord
 
 # Acknowledgement 🤝
 - [Discord API documentation](https://docs.discord.food/resources/user#join-hypesquad-online)
