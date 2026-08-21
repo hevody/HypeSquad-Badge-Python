@@ -63,4 +63,4 @@ The program of this GitHub repository named, `HypeSquad-Badge-Python` is not aff
 # Acknowledgement 🤝
 - [Discord API documentation](https://docs.discord.food/resources/user#join-hypesquad-online)
 - [This Reddit post](https://www.reddit.com/r/discordapp/comments/1rvc8au/how_does_bro_have_hypesquad_when_they_removed_it/) talking about a guy who has HypeSquad even though Discord discontinued the HypeSquad in-app quiz inside the user settings
-- Wanna express my gratitude towards Rayya Studio, the creators of the [Canva design](https://www.canva.com/design/DAHS63TQW98/_PQ_8IMjJzZ7cizKUTukAA/edit?ui=e30#) which serves as the thumbnail of this GitHub repository
+- Wanna express my gratitude towards Rayya Studio, the creators of this [Canva design](https://www.canva.com/design/DAHS63TQW98/_PQ_8IMjJzZ7cizKUTukAA/edit?ui=e30#) which serves as a major resource for the thumbnail of this GitHub repository
