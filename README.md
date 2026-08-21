@@ -19,7 +19,8 @@ python -m pip install -r requirements.txt
 ```
 
 - if you do not have `git` installed
-   <img width="500" height="auto" alt="Image" src="https://github.com/user-attachments/assets/ab88bd8e-d263-45a8-8e2f-330e5af77705" />
+  <br>
+   <img width="350" height="auto" alt="Image" src="https://github.com/user-attachments/assets/ab88bd8e-d263-45a8-8e2f-330e5af77705" />
 
 # Usage ⚙️
 
