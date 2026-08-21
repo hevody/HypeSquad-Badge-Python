@@ -1,8 +1,10 @@
+<img width="auto" height="auto" alt="Image" src="https://github.com/user-attachments/assets/11d282f6-2479-4d50-88b4-806d907c755b" />
+
 # HypeSquad Badge Python ⚔️
 
 Discord removed the HypeSquad badges. Or did they?
 <br><br>
-Discord still respond to API requests regarding Hypesquad Houses so it's not completely removed yet. So you might see other users who have HypeSquad badges even though it was reportedly discontinued. Therefore, I made this Python script as a new **method** to help you acquire the HypeSquad badge if you still haven't
+Discord still respond to API requests regarding Hypesquad Houses so it's not completely removed yet. That is why you might've seen other users who have HypeSquad badges even though it was reportedly discontinued. Therefore, I made this Python script as a new **method** to help you acquire the HypeSquad badge if you still haven't
 
 # Prerequisites 🛠️
 - `Python` installed
@@ -54,8 +56,11 @@ python hypesquad_in_profile.py
 
 7. Double-click the value of **`token`**, right-click, then **`Copy`**
 
+# Disclaimer ⛔
 
+The program of this GitHub repository named, `HypeSquad-Badge-Python` is not affiliated with Discord. 
 
 # Acknowledgement 🤝
 - [Discord API documentation](https://docs.discord.food/resources/user#join-hypesquad-online)
 - [This Reddit post](https://www.reddit.com/r/discordapp/comments/1rvc8au/how_does_bro_have_hypesquad_when_they_removed_it/) talking about a guy who has HypeSquad even though Discord discontinued the HypeSquad in-app quiz inside the user settings
+- Wanna express my gratitude towards Rayya Studio, the creators of the [Canva design](https://www.canva.com/design/DAHS63TQW98/_PQ_8IMjJzZ7cizKUTukAA/edit?ui=e30#) which serves as the thumbnail of this GitHub repository
