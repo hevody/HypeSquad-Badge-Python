@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import time
 
 ### reading configs ###
 with open('config.json') as f:
@@ -20,7 +21,10 @@ payload = config["PAYLOAD"]
 def provide_discord_token() -> str:
   os.system(clear)
   print(config["discord_token_instruction"])
-  user_discord_token = input("\nDISCORD_TOKEN: ")
+  try:
+    user_discord_token = input("\nDISCORD_TOKEN: ")
+  except KeyboardInterrupt:
+    exit()
   return user_discord_token
 
 def determine_the_house() -> int:
@@ -78,11 +82,23 @@ def perform_a_post_request() -> bool:
   return str(response)
 
 if __name__ == '__main__':
-  headers["Authorization"] = provide_discord_token()
-  config["PAYLOAD"]["house_id"] = determine_the_house()
-  success = perform_a_post_request()
 
-  if success:
-    print('Success! You can now view the badge in your profile')
-  if not success:
-    print('Check if you pasted your Discord token right...')
+  got_the_badge = False
+
+  while not got_the_badge:
+    headers["Authorization"] = provide_discord_token()
+    config["PAYLOAD"]["house_id"] = determine_the_house()
+    success = perform_a_post_request()
+
+    if success:
+      print('Success! You can now view the badge in your profile')
+      got_the_badge = True
+    if not success:
+      print('Check if you pasted your Discord token right...')
+      time.sleep(2)
+      got_the_badge = False
+
+  try:
+    input('EXIT ')
+  except:
+    exit()
