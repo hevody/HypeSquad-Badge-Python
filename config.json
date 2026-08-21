@@ -1,0 +1,12 @@
+{
+  "HEADERS": {
+    "Authorization": "{discord_token}",
+    "Content-Type": "application/json"
+  },
+  "PAYLOAD": {"house_id": "{house_number}"},
+  "API_URL": "https://discord.com/api/v9/hypesquad/online", 
+  "clear_windows": "cls",
+  "clear_posix": "clear",
+  "hype_squad_validator": "\n[*] Invalid. Type on the number [1/2/3] or the specific HypeSquad House",
+  "discord_token_instruction": "\n  ===== How to get your Discord token? =====\n\n  1.  Head over to https://discord.com/app\n      Log In if prompted\n\n  2.  Press Ctrl + Shift + I to open up your browser's Developer Options \n\n  3.  Head over to \"Application\" in the Developer Options header\n      If you cannot see it click on >>> That will show you the \"Application\"\n\n  4.  Click \"Local storage\" > \"https://discord.com\" > \"Filter\"\n\n  5.  Type in \"token\"\n      You will see key and value pairs\n\n  6.  Double-click the value of \"token\", right-click, then \"Copy\"\n\n  7.  Paste the copied Discord token here\n"
+}
